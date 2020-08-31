@@ -11,11 +11,8 @@ And it does not have boring, you can just come up with some ideal spending, and 
 
 ## #1: Development / IDE
 
-![diag](0ideVSCode.png)
 
-Oh Hi
-
-<img src="0ideVSCode.png" height="200">
+<img src="0ideVSCode.png" height="800">
 
 
 In Chess, there is a library of named openings, such as Queen's Gambit. The opening, first 10 scripted moves or so, is played very quickly, and after it is on the board, the middle game starts where the moves vary. And there is a chess opening that is frequently played by international grand masters, informally called 'Gand Prix'.
