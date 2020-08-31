@@ -1,13 +1,38 @@
 ﻿
-# Java ecosystem's 10 New Best Practices for the 2020s 
-#### for back end / data engineering, relative to Java from 2010s.
+# Eng. Managment
 by Vic Cekvenich
 
-Summary: There are some radical differences in today's Java ecosystem relative to the prior decade. The listed difference add up to a difference in kind, not a difference in degree. We have achieved an order of magnitude improvement with the new adjustments in our development. The list has 10 points in 4 pages, including code examples.
+## Background
 
+There are organization where top managment jokes about: I don't even know why we are spending $40K per month on AWS. And they do that with pride.
 
-Note, if you find typos or issues in this draft, please contact me, I have limited time to do open source. So please help open source, and be my tech editor. After this soaks a bit on the www, I may have it produced better, like in a PDF.
+One way to manage is to plan what you should be spending. That allows you to the compare and monitor to what you are spending on tech.
+And it does not have boring, you can just come up with some ideal spending, and do that every 3 years or so. Here is some ideas as to what is cost effective to invest in:
 
-## #1: Starter enterprise cloud software architecture: Grand Prix 
+## #1: Development / IDE
+
+![diag](0ideVSCode.png)
+
+Oh Hi
+
+<img src="0ideVSCode.png" height="200">
+
 
 In Chess, there is a library of named openings, such as Queen's Gambit. The opening, first 10 scripted moves or so, is played very quickly, and after it is on the board, the middle game starts where the moves vary. And there is a chess opening that is frequently played by international grand masters, informally called 'Gand Prix'.
+
+
+
+1. 3 accounts: dev, staging, prod.
+Likely more for projectized accouting.
+
+
+Enviroment: 
+2 Production:Blue/Green/Canary/EU
+
+1 Staging Branch: Beta/QA
+
+1 Dev(CI/CD Master):
+
+
+Managment tip, 10th sincer feedback
+manage for celling or the floor
