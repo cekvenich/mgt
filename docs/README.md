@@ -30,8 +30,8 @@ And it does not have boring, you can just come up with some ideal spending, and 
 
 
 ### Dev. tools budget 
-About $50 / month / developer.
-So a team of 5 is ~$3K annual.
+About $75 / month / developer.
+So a team of 5 is ~$4K annual.
 
 ## #2: Architecture / DB
 
@@ -47,17 +47,20 @@ So a team of 5 is ~$3K annual.
 
 
 ### Architecture budget / Enviroments
-About $50 / month / enviromet. Likely you'll have following enviroments:
+About $150 / month / enviroment. Likely you'll have following enviroments:
 2 Production:Blue/Green/Canary/EU
 1 Staging Branch: Beta/QA
 1 Dev(CI/CD Master):
-So 4 enviroments is ~$2K annual.
+So 4 enviroments is ~$6K annual.
 
 
 ## #3: SRE Infrasturcutre 
 
 - You do need centralized logs:
 <img src="2logs.png" height="300">
+
+- And monitoring:
+<img src="2mon.png" height="300">
 
 - As you start getting customer traffic you'll need to build a centralized NOC/SOC dashboard, eg. Grafana:
 <img src="2graf.png" height="300">
@@ -69,12 +72,49 @@ So 4 enviroments is ~$2K annual.
 <img src="2za_gove.png" height="300">
 
 ### Infrasturcutre tools budget 
-About $150 / month.
-So about ~$2K annual.
+About $250 / month.
+So about ~$3K annual.
 
 
-## #4: Testing and CD
+## #4: Testing, QA and CD
 
+- In order to do capacity planning, you'll have to use one of the many load generators. If you use network, it will be expensive, so just use large RAM VM so you can have all the services and load generators VMs on the same box. If you don't do load testing, you can't do capacity planning. Large RAM cloud: 
+<img src="4doStress.png" height="300">
+
+- CD:
+<img src="4CI.png" height="300">
+
+- Mobile apps CD:
+<img src="4mobileCI.png" height="300">
+
+- Testing, E2E, there are 2 example vendors, Cypress and Puppetry:<br/>
+<img src="4pup.png" height="200">
+<img src="4teste2e100.png" height="200">
+
+
+### Testing tools budget 
+About $500 / month.
+So about ~$8K annual.
+
+
+## #5: Business Intelegence & business value
+
+- Basic analytics : 
+<img src="5anal.png" height="300">
+
+- Optional analytics support :
+<img src="5clickH.png" height="300">
+
+- Business dashboard :
+<img src="5dash.png" height="300">
+
+- BI integration :
+<img src="5panBi.png" height="300">
+
+
+### BI tools budget 
+About $1.2k / month.
+So about ~$15K annual.
 
 
 
