@@ -177,5 +177,5 @@ and a remote VPE ~ $150K to run it, so a total of ~ $700K / year.
 
 I hope above gives you ideas. If I missed a category or if something I have listed can be more efficient, please get in touch and let me know.
 
-If you have a line item missing from the budget, it still can fly, in the way a plane can fly with one wing.
-<img src="f15.png" height="200">
+If you have a line item missing from the budget, it still can fly, in the way a plane can fly with one wing.<br/>
+<img src="f15.jpeg" height="200">
