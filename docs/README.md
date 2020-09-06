@@ -117,7 +117,7 @@ About $1.2k / month.
 So about ~$15K annual. But sometimes people don't have a budget for BI.
 As an alternative to BI budget, Excel can connect to SQL and run queries for basically free.
 
-# Managment tools
+# Management tools
 
 ## #1: Day to day
 
