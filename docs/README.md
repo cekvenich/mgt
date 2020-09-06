@@ -1,17 +1,17 @@
 ﻿
-# Eng. Managment
+# Eng. Tooling and Managment Budget
 by Vic Cekvenich
 
-## Background
+# Eng. Tooling 
 
-There are organization where top managment jokes about: I don't even know why we are spending $40K per month on AWS. And they do that with pride.
+There are organization where top managment jokes about: I don't even know why we are spending $60K per month on AWS. And they do that with pride.
 
 One way to manage is to plan what you should be spending. That allows you to the compare and monitor to what you are spending on tech.
-And it does not have boring, you can just come up with some ideal spending, and do that every 3 years or so. Here is some ideas as to what is cost effective to invest in:
+And it does not have boring, you can just come up with some ideal spending. Here is some ideas to help you with your budget line items:
 
 ## #1: Development / IDE
 
-- Development is now moving into the cloud, so instead of running VS Code localy, you would run it in your cloud linux box - a bit similar to CodeAnywhere.com. :
+- Development is now moving into the cloud, so instead of running VS Code localy, you would run it in your cloud linux box - a bit similar to CodeAnywhere.com. And more secure than local development :
 <br/>
 <img src="0ideVSCode.png" height="500">
 
@@ -31,20 +31,20 @@ And it does not have boring, you can just come up with some ideal spending, and 
 
 ### Dev. tools budget 
 About $75 / month / developer.
-So a team of 5 is ~$4K annual.
+So a team of 8 is ~$7K annual.
 
 ## #2: Architecture / DB
 
-- When using a cloud, a popular service is S3:<br/>
+- When using a cloud, one of the popular services is S3 store:<br/>
 <img src="01was.png" height="300">
 
-- If using microservices, you'll need to use Dockerfiles and an enterpirse event bus, like NATS:
+- If using microservices, you'll need an enterprise event bus, like NATS:
 <img src="01nats.png" height="300">
 
 - And you'll need a CDN, it makes things cheaper, faster and safer: 
 <img src="01cdn.png" height="300">
 
-
+Plus some Docker cloud host, eg. DO.
 
 ### Architecture budget / Enviroments
 About $150 / month / enviroment. Likely you'll have following enviroments:
@@ -97,10 +97,10 @@ About $500 / month.
 So about ~$8K annual.
 
 
-## #5: Business Intelegence & business value
+## #5: Optional: Business Intelegence & business value
 
 - Basic analytics : 
-<img src="5anal.png" height="300">
+<img src="5anal.jpeg" height="300">
 
 - Optional analytics support :
 <img src="5clickH.png" height="300">
@@ -113,11 +113,67 @@ So about ~$8K annual.
 
 
 ### BI tools budget 
-About $1.2k / month.
-So about ~$15K annual.
+About $1.2k / month. 
+So about ~$15K annual. But sometimes people don't have a budget for BI.
+As an alternative to BI budget, Excell can connect to SQL and run queries for basically free.
+
+# Managment tools
+
+## #1: Day to day
+
+- Task tracking Notion, or AirTable ( most people don't like Jira ):
+<img src="13notJiraTruth.png" height="300">
+<img src="13air.png" height="200">
+
+- Daily status reports, I like video: 
+<img src="13loom.png" height="300">
+
+- Screen shot tool: 
+<img src="13screenShot.png" height="250">
+
+- Live meetings tool: 
+<img src="13skypeSlack.png" height="300">
+
+### Day to day tools budget 
+Day to day $75 / month / resource.
+So a team of 8 is ~$7K annual.
+
+## #2: Managment tools
+
+- Managing up, one of the most important tasks for VPE is doing infographics: 
+<img src="99reportsUpPicto.png" height="300">
+
+- 360 Mangement, OKR and 1:1 tool:
+<img src="98small.png" height="300">
+
+- Job posting:
+<img src="99up.png" height="300">
 
 
+### Management tools budget 
+Day to day $80 / month / resource.
+So a team of 8 is ~$8K annual.
+
+# Resources / Salaries budget
+
+2 FE /designer remote $25 / hr (100K)<br/>
+1 BE / dba  $100K <br/>
+1 BE / BI remote $15 / hr (40K)<br/>
+1 SRE remote USA weekends $150K / yr <br/>
+1 QA offshore weekends up/work $12 / hr (30K) <br/>
+1 SA remote Upwork $50 / hr (100K) <br/>
+==<br/>
+$550K for staff
+
+And tools:
+7 + 6 + 3 + 8 + 0 + 7 + 8  
+==
+~$40K
+
+and a remote VPE ~ $150K to run it, so a total of ~ $700K / year.
 
 
-Managment tip, 10th sincer feedback
-manage for celling or the floor
+### A good use of this is for you to do your own budget
+
+I hope above gives you ideas. If I missed a category or if something I have listed can be more efficcient, please get in touch and let me know.
+
