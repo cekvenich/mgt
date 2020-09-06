@@ -1,17 +1,17 @@
 ﻿
-# Eng. Tooling and Managment Budget
+# Eng. Tooling and Management Budget
 by Vic Cekvenich
 
 # Eng. Tooling 
 
-There are organization where top managment jokes about: I don't even know why we are spending $60K per month on AWS. And they do that with pride.
+There are organization where top management jokes about: I don't even know why we are spending $60K per month on AWS. And they do that with pride.
 
 One way to manage is to plan what you should be spending. That allows you to the compare and monitor to what you are spending on tech.
 And it does not have boring, you can just come up with some ideal spending. Here is some ideas to help you with your budget line items:
 
 ## #1: Development / IDE
 
-- Development is now moving into the cloud, so instead of running VS Code localy, you would run it in your cloud linux box - a bit similar to CodeAnywhere.com. And more secure than local development :
+- Development is now moving into the cloud, so instead of running VS Code locally, you would run it in your cloud Linux box - a bit similar to CodeAnywhere.com. And more secure than local development :
 <br/>
 <img src="0ideVSCode.png" height="500">
 
@@ -38,7 +38,7 @@ So a team of 8 is ~$7K annual.
 - When using a cloud, one of the popular services is S3 store:<br/>
 <img src="01was.png" height="300">
 
-- If using microservices, you'll need an enterprise event bus, like NATS:
+- If using micro-services, you'll need an enterprise event bus, like NATS:
 <img src="01nats.png" height="300">
 
 - And you'll need a CDN, it makes things cheaper, faster and safer: 
@@ -46,15 +46,15 @@ So a team of 8 is ~$7K annual.
 
 Plus some Docker cloud host, eg. DO.
 
-### Architecture budget / Enviroments
-About $150 / month / enviroment. Likely you'll have following enviroments:
+### Architecture budget / Environments
+About $150 / month / environment. Likely you'll have following environments:
 2 Production:Blue/Green/Canary/EU
 1 Staging Branch: Beta/QA
 1 Dev(CI/CD Master):
-So 4 enviroments is ~$6K annual.
+So 4 environments is ~$6K annual.
 
 
-## #3: SRE Infrasturcutre 
+## #3: SRE Infrastructure 
 
 - You do need centralized logs:
 <img src="2logs.png" height="300">
@@ -68,10 +68,10 @@ So 4 enviroments is ~$6K annual.
 - With growth, you maybe doing infrastructure as code, Pulumi ( or Teraforma ):
 <img src="2puluGitHub.png" height="300">
 
-- Pulumi has help with complaince (eg SOC, HIPAA, PCI, etc. ):
+- Pulumi has help with compliance (eg SOC, HIPAA, PCI, etc. ):
 <img src="2za_gove.png" height="300">
 
-### Infrasturcutre tools budget 
+### Infrastructure tools budget 
 About $250 / month.
 So about ~$3K annual.
 
@@ -97,7 +97,7 @@ About $500 / month.
 So about ~$8K annual.
 
 
-## #5: Optional: Business Intelegence & business value
+## #5: Optional: Business Intelligence & business value
 
 - Basic analytics : 
 <img src="5anal.jpeg" height="300">
@@ -115,7 +115,7 @@ So about ~$8K annual.
 ### BI tools budget 
 About $1.2k / month. 
 So about ~$15K annual. But sometimes people don't have a budget for BI.
-As an alternative to BI budget, Excell can connect to SQL and run queries for basically free.
+As an alternative to BI budget, Excel can connect to SQL and run queries for basically free.
 
 # Managment tools
 
@@ -138,12 +138,12 @@ As an alternative to BI budget, Excell can connect to SQL and run queries for ba
 Day to day $75 / month / resource.
 So a team of 8 is ~$7K annual.
 
-## #2: Managment tools
+## #2: Management tools
 
-- Managing up, one of the most important tasks for VPE is doing infographics: 
+- Managing up, one of the most important tasks for VPE is doing info-graphics: 
 <img src="99reportsUpPicto.png" height="300">
 
-- 360 Mangement, OKR and 1:1 tool:
+- 360 Management, OKR and 1:1 tool:
 <img src="98small.png" height="300">
 
 - Job posting:
@@ -175,5 +175,7 @@ and a remote VPE ~ $150K to run it, so a total of ~ $700K / year.
 
 ### A good use of this is for you to do your own budget
 
-I hope above gives you ideas. If I missed a category or if something I have listed can be more efficcient, please get in touch and let me know.
+I hope above gives you ideas. If I missed a category or if something I have listed can be more efficient, please get in touch and let me know.
 
+If you have a line item missing from the budget, it still can fly, in the way a plane can fly with one wing.
+<img src="f15.png" height="200">
