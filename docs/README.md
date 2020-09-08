@@ -7,7 +7,7 @@ by Vic Cekvenich
 There are organization where top management jokes about: I don't even know why we are spending $60K per month on AWS. And they do that with pride.
 
 One way to manage is to plan what you should be spending. That allows you to the compare and monitor to what you are spending on tech.
-And it does not have boring, you can just come up with some ideal spending. Here is some ideas to help you with your budget line items:
+And it does not have be boring, you can just come up with some ideal/fantasy spending. Here is some ideas to help you with your budget line items:
 
 ## #1: Development / IDE
 
@@ -44,6 +44,8 @@ So a team of 8 is ~$7K annual.
 - And you'll need a CDN, it makes things cheaper, faster and safer: 
 <img src="01cdn.png" height="300">
 
+
+Often, you'll use other front and API, like PubNub and Algolia. 
 Plus some Docker cloud host, eg. DO.
 
 ### Architecture budget / Environments
@@ -154,7 +156,7 @@ So a team of 8 is ~$7K annual.
 Day to day $80 / month / resource.
 So a team of 8 is ~$8K annual.
 
-# Resources / Salaries budget
+# Salaries and the Full budget
 
 2 FE /designer remote $25 / hr (100K)<br/>
 1 BE / dba  $100K <br/>
