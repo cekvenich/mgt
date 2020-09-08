@@ -45,7 +45,7 @@ So a team of 8 is ~$7K annual.
 <img src="01cdn.png" height="300">
 
 
-Often, you'll use other front and API, like PubNub and Algolia. 
+-Often, you'll use other front and API, like PubNub and Algolia. <br/>
 Plus some Docker cloud host, eg. DO.
 
 ### Architecture budget / Environments
@@ -136,8 +136,10 @@ As an alternative to BI budget, Excel can connect to SQL and run queries for bas
 - Live meetings tool: 
 <img src="13skypeSlack.png" height="300">
 
+- And often you'll need email, eg: fastmail.com, $5/user/month.
+
 ### Day to day tools budget 
-Day to day $75 / month / resource.
+Day to day $80 / month / resource.
 So a team of 8 is ~$7K annual.
 
 ## #2: Management tools
