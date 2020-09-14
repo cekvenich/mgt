@@ -130,7 +130,7 @@ As an alternative to BI budget, Excel can connect to SQL and run queries for bas
 - Daily status reports, I like video: 
 <img src="13loom.png" height="300">
 
-- Screen shot tool: 
+- Screen shot tool to record activity: 
 <img src="13screenShot.png" height="250">
 
 - Live meetings tool: 
