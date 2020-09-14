@@ -136,7 +136,7 @@ As an alternative to BI budget, Excel can connect to SQL and run queries for bas
 - Live meetings tool: 
 <img src="13skypeSlack.png" height="300">
 
-- And often you'll need email, eg: fastmail.com, $5/user/month.
+- And you'll need email, eg: fastmail.com, $5/user/month.
 
 ### Day to day tools budget 
 Day to day $80 / month / resource.
