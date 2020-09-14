@@ -45,7 +45,7 @@ So a team of 8 is ~$7K annual.
 <img src="01cdn.png" height="300">
 
 
--Often, you'll use other front and API, like PubNub and Algolia. <br/>
+-Often, you'll use other APIs, like PubNub and Algolia. <br/>
 Plus some Docker cloud host, eg. DO.
 
 ### Architecture budget / Environments
