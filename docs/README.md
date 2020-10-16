@@ -146,10 +146,10 @@ So a team of 8 is ~$7K annual.
 
 ## #2: Management tools
 
-- Managing up, one of the most important tasks for VPE is doing info-graphics: 
+- Managing up, one of the important tasks is doing info-graphics: 
 <img src="99reportsUpPicto.png" height="300">
 
-- 360 Management, OKR and 1:1 tool:
+- 360 Management, the most important tool. Also OKR and 1:1:
 <img src="98small.png" height="300">
 
 - Job posting:
