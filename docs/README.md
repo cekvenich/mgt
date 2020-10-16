@@ -186,5 +186,7 @@ If you have a line item missing from the budget, it still can fly, in the way a 
 
 ## Appendix
 
-I use many open source tools, one that comes to mind is:
+I use many other tools, here are some that come to mind are:
 - https://github.com/ORESoftware/fame#readme
+- https://affinity.serif.com/en-gb/designer
+- https://easydns.com
