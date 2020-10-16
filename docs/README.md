@@ -176,8 +176,6 @@ And tools:
 ==
 ~$40K
 
-and a remote VPE ~ $150K to run it, so a total of ~ $700K / year.
-
 
 ### A good use of this is for you to do your own budget
 
@@ -185,3 +183,8 @@ I hope above gives you ideas. If I missed a category or if something I have list
 
 If you have a line item missing from the budget, it still can fly, in the way a plane can fly with one wing.<br/>
 <img src="f15.jpeg" height="200">
+
+## Appendix
+
+I use many open source tools, one that comes to mind is:
+- https://github.com/ORESoftware/fame#readme
