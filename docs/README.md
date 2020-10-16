@@ -22,7 +22,7 @@ or https://codesandbox.io
 <p/> 
 
 <p/><br/><p/>
-- For back end, you may want to leverage modern cloud services such as Google FireBase, it does an OK job w/ User Auth. Similar to FireBase is Strapi.io and it is free. Maybe user auth should be it's own line item :<br/>
+- For back end, you may want to leverage modern cloud services such as Google FireBase, it does an OK job w/ User Auth as does AWS Cognito and Azure AD. Similar to FireBase is Strapi.io and it is free. Maybe user auth should be it's own line item :<br/>
 <img src="00fbBEUser.png" height="200">
 <p/>
 
